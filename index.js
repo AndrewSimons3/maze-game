@@ -50,3 +50,11 @@ for (let i = 0; i < 50; i++) {
     )
   }
 };
+
+//BUILDING THE MAZE
+//CREATE A GRID OF CELLS 
+//pick a random starting cell
+//build a randomly-ordered list of neighbors
+//if a neighbor has been visited before, remove it from the list
+//for each remaining neighbor, 'move' to it and remove the wall between those two cells
+//Repeat for this new neighbor
